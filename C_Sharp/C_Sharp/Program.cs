@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace multiples_5
+namespace C_Sharp
 {
     class Program
     {
@@ -29,8 +29,7 @@ namespace multiples_5
                             Console.WriteLine("\nRango ingresado no válido, debe ser múltiplo de cinco");
                         }
                     } while ((rango % 5 != 0) || (rango <= 0));
-
-                    for (int i = 5; i <= rango; i+=5)
+                    for (int i = 5; i <= rango; i += 5)
                     {
                         if (i != rango)
                         {
@@ -48,8 +47,7 @@ namespace multiples_5
                         }
                         total += i;
                     }
-
-                    Console.WriteLine("\n" + mensaje + " = " + total + 
+                    Console.WriteLine("\n" + mensaje + " = " + total +
                         "\n\nTotal múltiplos de cinco impares: " + nimpares +
                         "\n\nLos múltiplos de cinco impares son: " + impares);
                     Console.ReadLine();
@@ -60,7 +58,6 @@ namespace multiples_5
                     Console.WriteLine("\nIngreso no válido, debe ser un número entero múltiplo de cinco");
                 }
             } while (valida == 1);
-
         }
     }
 }

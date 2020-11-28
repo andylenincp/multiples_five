@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E6D8391-AEB7-4FB9-95BE-C118A4AA5928}</ProjectGuid>
+    <ProjectGuid>{6DF57C77-3232-4BAD-B34B-4BAE7EC5BD71}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>multiples_5</RootNamespace>
-    <AssemblyName>multiples_5</AssemblyName>
+    <RootNamespace>C_Sharp</RootNamespace>
+    <AssemblyName>C_Sharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
