@@ -66,7 +66,7 @@ namespace C_Sharp
                         if (i % 2 != 0)
                         {
                             /*
-                             * Si el módulo de dividir por dos a la variable i es diferente a cero sabemos que es un número impar,
+                             * Si el módulo de dividir por dos a la variable i es diferente de cero sabremos que es un número impar,
                              * por lo tanto lo almacenamos en una cadena y aumentamos el contador de impares,
                              */
                             impares = impares + " " + i;
@@ -89,7 +89,7 @@ namespace C_Sharp
                 catch (Exception)
                 {
                     valida = 1;
-                    Console.WriteLine("\nIngreso no válido, debe ser un número entero múltiplo de cinco");
+                    Console.WriteLine("\nHa ocurrido un error, intente nuevamente.");
                 }
             } while (valida == 1);
         }
